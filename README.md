@@ -1,25 +1,24 @@
-##Trabajo_Fin_Grado
-Código para la integración, procesamiento de datos y creación de análisis univariantes, bivariantes y de supervivencia
-# Herramientas de Análisis de Datos Médicos
+## Final Degree Project
+Code for data integration, processing, and creation of univariate, bivariate, and survival analysis
+# Medical Data Analysis Tools
 
-Este repositorio contiene un conjunto de herramientas y scripts desarrollados en Python para el análisis de datos médicos. Estas herramientas permiten la integración y procesamiento de datos, la creación de gráficas informativas y la generación de diapositivas en PowerPoint para presentación de resultados.
+This repository contains a set of tools and scripts developed in Python for the analysis of medical data. These tools allow data integration and processing, the creation of informative graphs, and the generation of PowerPoint slides for presenting results.
 
-## Estructura del Repositorio
+## Repository Structure
 
-El repositorio está organizado en tres carpetas principales:
+The repository is organized into three main folders:
 
-1. `integracion_procesamiento`: Esta carpeta contiene los scripts y módulos auxiliares necesarios para la integración y procesamiento de los datos médicos. Los archivos incluidos son:
-    - `concat.py`: Realiza la integración de tablas obtenidas de una base de datos relacional en un único DataFrame de pandas.
-    - `procesamiento.py`: Realiza el procesamiento de variables médicas de interés para su posterior análisis.
+1. `integration_processing`: This folder contains the scripts and auxiliary modules necessary for the integration and processing of medical data. The included files are:
+    - `concat.py`: Performs the integration of tables obtained from a relational database into a single pandas DataFrame.
+    - `processing.py`: Processes medical variables of interest for subsequent analysis.
 
-2. `creacion_diapositivas`: En esta carpeta se encuentran las funciones y código necesarios para la generación de diapositivas en PowerPoint. Los archivos incluidos son:
-    - `univ_funciones.py`: Contiene funciones para la creación de gráficas de distintos tipos de variables, el manejo de valores faltantes y errores en la recopilación de datos, y la generación de diapositivas informativas en PowerPoint.
-    - `biv_funciones.py`: Similar a `univ_funciones.py`, pero incluye funciones para el análisis bivariante de datos, tomando una variable agrupadora como argumento.
+2. `slide_creation`: In this folder, you will find the functions and code required for generating PowerPoint slides. The included files are:
+    - `univ_functions.py`: Contains functions for creating graphs of different types of variables, handling missing values and data collection errors, and generating informative PowerPoint slides.
+    - `biv_functions.py`: Similar to `univ_functions.py`, but includes functions for bivariate data analysis, taking a grouping variable as an argument.
 
-3. `analisis_de_datos`: Esta carpeta contiene los scripts principales para la realización de análisis de datos. Los archivos incluidos son:
-    - `Univ_main.py`: Genera análisis univariantes y crea diapositivas en PowerPoint.
-    - `Biv_main.py`: Genera análisis bivariantes y crea diapositivas en PowerPoint.
-    - `surv_main.py`: Proporciona una interfaz gráfica para generar curvas de supervivencia y descargar los resultados en formato PowerPoint.
+3. `data_analysis`: This folder contains the main scripts for performing data analysis. The included files are:
+    - `Univ_main.py`: Generates univariate analysis and creates PowerPoint slides.
+    - `Biv_main.py`: Generates bivariate analysis and creates PowerPoint slides.
+    - `surv_main.py`: Provides a graphical interface to generate survival curves and download the results in PowerPoint format.
 
-
-Para ejecutar los scripts principales, simplemente abre una terminal en el directorio correspondiente y ejecuta el comando `python <nombre_del_script>.py`. 
+To run the main scripts, simply open a terminal in the corresponding directory and execute the command `python <script_name>.py`.
